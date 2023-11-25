@@ -1,0 +1,23 @@
+{
+	"name": "lenevor/fibber",
+	"type": "library",
+	"description": "Fibber is a PHP library that generates fake data.",
+	"keywords": ["fibber","data"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Alexander Campo",
+			"email": "jalexcam@gmail.com"
+		}
+	],
+	"require": {
+		"php": "^8.1"
+	},
+	"autoload": {
+        "psr-4": {
+            "Fibber\\": "src/Fibber/"
+        }
+    },
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
